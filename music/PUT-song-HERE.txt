@@ -1,0 +1,2 @@
+Add your music here and name it song.mp3 (recommended).
+You can also use song.m4a, song.ogg, or song.wav; update the <source> in index.html if needed.
