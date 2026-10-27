@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f8e9be"><meta name="description" content="A birthday surprise for Shri Sakhi">
+<title>For Shri Sakhi ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="butterflies" class="butterflies" aria-hidden="true"></div>
+
+<main>
+<section id="countdownPage" class="countdown-page">
+  <div class="countdown-bg"></div><div class="hero-vignette"></div>
+  <div class="countdown-content">
+    <div class="micro-mark">♡</div>
+    <p class="serif-label">For My Beautiful</p>
+    <h1>Shri Sakhi</h1>
+    <div class="flourish">⌁ &nbsp; ♡ &nbsp; ⌁</div>
+    <p class="intro">Some people make life brighter just by being in it…<br>and you are one of them. ♡</p>
+    <div class="count-card">
+      <p class="count-title">Your Birthday is in...</p>
+      <div class="timer">
+        <div><b id="days">000</b><small>Days</small></div><div><b id="hours">00</b><small>Hours</small></div>
+        <div><b id="minutes">00</b><small>Minutes</small></div><div><b id="seconds">00</b><small>Seconds</small></div>
+      </div>
+      <div class="date-row"><span>▣</span><span>4 November 2026</span></div>
+    </div>
+    <p class="waiting">Until then, keep being your<br>beautiful, amazing self. ♡</p>
+  </div>
+  <div class="hero-bottom"><span></span><small>Something beautiful is waiting for you</small><span></span></div>
+</section>
+
+<div id="birthdayPage" class="birthday-page hidden">
+<section class="birthday-banner">
+  <div class="banner-inner">
+    <p class="eyebrow">4 November 2026</p>
+    <h2>Happy Birthday,<br>Shri Sakhi ♡</h2>
+    <p>Today the world got a little brighter…<br>because you were born. ♡</p>
+  </div>
+</section>
+
+<section class="wish premium-section">
+  <div class="section-shell wish-shell">
+    <div class="wish-copy">
+      <p class="eyebrow">A wish, just for you</p>
+      <h2>Make a Wish ♡</h2>
+      <p>Here’s to more dreams, more laughter, more love, and a lifetime of happiness.</p>
+      <button id="wishBtn" class="premium-btn">Make your wish <span>✦</span></button>
+    </div>
+    <div class="cake-photo local-photo" data-photo="photo-1">
+      <img src="images/gallery/photo-1.png" alt="Birthday cake memory" onerror="this.closest('.local-photo').classList.add('missing-photo');this.style.display='none'">
+      <div class="photo-glow"></div><div id="confetti" class="confetti"></div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery premium-section">
+  <div class="section-shell">
+    <header class="section-heading"><p class="eyebrow">Little moments, forever things</p><h2>Our Gallery ♡</h2><p>Some of my favourite moments with you.</p></header>
+    <div class="polaroids">
+      <button class="polaroid p1" data-photo="photo-2"><img src="images/gallery/photo-2.jpeg" alt="Our memory 1" onerror="this.closest('.polaroid').classList.add('missing-photo');this.style.display='none'"><span>you + me</span></button>
+      <button class="polaroid p2" data-photo="photo-3"><img src="images/gallery/photo-3.jpeg" alt="Our memory 2" onerror="this.closest('.polaroid').classList.add('missing-photo');this.style.display='none'"><span>golden hours</span></button>
+      <button class="polaroid p3" data-photo="photo-4"><img src="images/gallery/photo-4.jpeg" alt="Our memory 3" onerror="this.closest('.polaroid').classList.add('missing-photo');this.style.display='none'"><span>little joys</span></button>
+      <button class="polaroid p4" data-photo="photo-5"><img src="images/gallery/photo-5.jpeg" alt="Our memory 4" onerror="this.closest('.polaroid').classList.add('missing-photo');this.style.display='none'"><span>same sky</span></button>
+    </div>
+    <p class="tiny-note">Tap a photograph to open it.</p>
+  </div>
+</section>
+
+<section class="letter premium-section">
+ <div class="section-shell letter-shell">
+  <button id="openLetter" class="envelope" aria-label="Open your birthday letter">
+    <div class="envelope-flap"></div><div class="envelope-face"></div><div class="wax">S</div>
+    <div class="sprig">❀</div>
+  </button>
+  <div class="letter-copy"><p class="eyebrow">Words I wanted you to keep</p><h2>A Letter for You ♡</h2><p>I’ve written something special just for you — something better opened slowly.</p><button id="openLetter2" class="premium-btn ghost">Open Letter <span>♡</span></button></div>
+ </div>
+</section>
+
+<section class="arrival premium-section">
+ <div class="section-shell arrival-shell">
+   <div class="arrival-copy"><div class="flight-path">♡ · · · · · ✈</div><p class="eyebrow">One more date to remember</p><h2>Mark Your Calendar ♡</h2><p>My arrival in your arms —<br><strong>8 February 2027</strong> ♡</p></div>
+   <div class="calendar-card">
+     <div class="rings"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+     <div class="calendar-top"><span>February</span><b>2027</b></div>
+     <div class="week"><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b><b>Sun</b></div>
+     <div id="calDays" class="cal-days"></div>
+     <div class="arrival-tag">♡ My Arrival</div>
+   </div>
+ </div>
+</section>
+
+<section class="playlist premium-section">
+ <div class="section-shell playlist-shell">
+  <header class="section-heading"><p class="eyebrow">A soundtrack for our story</p><h2>Our Playlist ♡</h2><p>A few songs for our journey together.</p></header>
+  <div class="player">
+    <div class="album"><span>🌻</span></div>
+    <div class="track"><small>NOW PLAYING</small><strong id="songName">Our special song</strong><span>For Shri Sakhi ♡</span><span class="music-hint">music/song.mp3</span></div>
+    <audio id="audio" controls preload="metadata"><source src="music/song.mp3" type="audio/mpeg">Your browser does not support audio.</audio>
+  </div>
+ </div>
+</section>
+
+<section class="finale local-photo" data-photo="photo-6">
+ <img class="finale-image" src="images/gallery/photo-6.png" alt="Sunflower field at sunset" onerror="this.closest('.local-photo').classList.add('missing-photo');this.style.display='none'">
+ <div class="finale-overlay"></div>
+ <div class="finale-copy"><p>I can’t wait to make more<br>beautiful memories with you…</p><span>♡</span></div>
+</section>
+</div>
+</main>
+
+<dialog id="letterDialog"><button class="close" id="closeLetter">×</button><article>
+ <div class="letter-flowers">🌻 &nbsp; 🦋 &nbsp; 🌼</div><p class="eyebrow">To my Shri Sakhi</p><h2>My favorite kind of sunshine,</h2>
+ <p>Some people make the world feel a little softer just by being in it. For me, that person is you.</p>
+ <p>I hope you never forget how special you are — not only on your birthday, but on ordinary days, messy days, and every moment when you need a reminder.</p>
+ <p>If I could gather every beautiful thing I wish for you, I would fill a whole sunflower field. Until then, I’ll keep cheering for you, laughing with you, and finding new reasons to be grateful that our paths crossed.</p>
+ <p>May this year bring you closer to your dreams, surround you with gentle people, and give you a thousand little reasons to smile.</p>
+ <p class="signature">Happy birthday, my sunshine. ♡</p><p class="signoff">Always yours, under the same sky.</p>
+</article></dialog>
+<dialog id="imageDialog" class="image-dialog"><button class="close" id="closeImage">×</button><img id="bigImage" alt="Expanded memory"></dialog>
+<div id="toast" class="toast">Wish made — may your year be golden. 🌻</div>
+<script src="script.js"></script>
+</body></html>
